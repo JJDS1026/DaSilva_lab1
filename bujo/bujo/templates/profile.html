@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Profile{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{% static 'css/styles.css' %}" type="text/css" media="all">
+{% endblock %}
+
+{% block content %}
+	<center><h1>PROFILE</h1></center>
+	<br>
+	<center><img src="https://ih1.redbubble.net/image.405461242.2162/poster,840x830,f8f8f8-pad,1000x1000,f8f8f8.u1.jpg"></center>
+	<br>
+	<center><p> You are "Janice Dime" or "John Doe".</p></center>
+	<center><p> You are an Ultimate Student of Hope's Peak Academy.</p></center>
+	<center>
+	<a href="/index_card">Home</a>
+	<a href="/key">Key</a>
+	<a href="/this_week">This Week</a>
+	<a href="/today">Today</a>
+	</center>
+{% endblock %}
